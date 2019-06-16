@@ -1,0 +1,519 @@
+/*
+Theme Name: Custom Theme Vet-Clinic
+Author: Nindya Hapsari 
+Author URI: www.nindyahapsari.com
+Description: Custom Wordpress Template for Vet Clinic
+Version: 1.0
+*/
+
+/* Nav bar */
+nav {
+  border-color: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.logo,
+.home,
+.about,
+.blog {
+  font-family: "Muli", Sans-Serif;
+}
+
+/* end of nav bar */
+
+/* image banner */
+
+.img-banner {
+  height: 80vh;
+  width: 100%;
+  background-image: url(pets/1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner-container {
+  width: 30%;
+  height: 35%;
+  position: absolute;
+  left: 6em;
+  top: 35%;
+}
+
+.banner-container h3 {
+  font-family: "Muli", Sans-Serif;
+  color: black;
+}
+
+.banner-container p {
+  font-family: "Merriweather", Serif;
+  color: black;
+}
+
+.banner-container button {
+  border-radius: 10px;
+  border-color: black;
+  height: 3em;
+  background: none;
+}
+
+/* end of img banner */
+
+/* service */
+
+.ourservice {
+  height: 80vh;
+}
+
+.ourservice h6 {
+  font-family: "Merriweather", Serif;
+}
+
+.ourservicehead {
+  text-align: center;
+  font-family: "Merriweather", Serif;
+  font-weight: 700;
+  margin-top: 3em;
+}
+
+.therapy,
+.vaccine,
+.care,
+.surgery {
+  position: relative;
+  width: 3em;
+  top: 5em;
+  left: 40%;
+  bottom: 10em;
+}
+
+.servicetxt {
+  font-family: "Merriweather", Serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5em;
+  border-radius: 3px;
+}
+
+.servicetxt .serchbtn {
+  border-radius: 5px;
+  color: black;
+}
+
+.servicebodytxt {
+  font-family: "Muli", Sans-Serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* team */
+
+.team-container {
+  height: 70vh;
+}
+
+.teamtxt {
+  position: absolute;
+  width: 30%;
+  height: 120%;
+  margin-top: 13%;
+}
+
+.teamtxt h5 {
+  font-size: 15px;
+  font-family: "Muli", Sans-Serif;
+}
+
+.teamimg-box-1,
+.teamimg-box-2,
+.teamimg-box-3 {
+  width: 20%;
+  height: 80%;
+}
+
+.teamimg-box-1 h5 {
+  font-size: 20px;
+  font-family: "Muli", Sans-Serif;
+}
+.teamimg-box-2 h5 {
+  font-size: 20px;
+  font-family: "Muli", Sans-Serif;
+}
+.teamimg-box-3 h5 {
+  font-size: 20px;
+  font-family: "Muli", Sans-Serif;
+}
+
+.teamimg-box-1 h6,
+.teamimg-box-2 h6,
+.teamimg-box-3 h6 {
+  font-size: 15px;
+  font-family: "Merriweather", Serif;
+}
+
+/* Why Us */
+
+.whyus {
+  height: 30em;
+  margin-top: 6em;
+}
+
+.whyushead {
+  text-align: center;
+  font-family: "Merriweather", Serif;
+  font-weight: 700;
+  padding-top: 2em;
+}
+
+.whyushead h6 {
+  font-family: "Merriweather", Serif;
+}
+
+.home-consult,
+.booking,
+.staff,
+.emergency {
+  position: relative;
+  width: 3em;
+  left: 40%;
+  top: 20%;
+}
+
+.whyusbody {
+  font-family: "Merriweather", Serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.whyusbodytxt {
+  font-family: "Muli", Sans-Serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* testimonial */
+
+.testimony-container {
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+}
+
+.testimony-container h2 {
+  font-family: "Merriweather", Serif;
+  margin-bottom: 1em;
+}
+
+/* appoinment */
+
+.appointment {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(pets/10.jpg);
+  height: 130vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.appointmenthead {
+  font-family: "Merriweather", Serif;
+  padding-top: 3em;
+  margin-left: 3em;
+  font-weight: 700;
+  color: antiquewhite;
+}
+
+.appointmenttxt {
+  font-size: 20px;
+}
+
+.form-container {
+  width: 40%;
+  margin-left: 5em;
+}
+
+.form-container .button {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 10em;
+  margin-left: 40%;
+}
+
+/* About */
+.img-banner-about p {
+  font-family: "Merriweather", Serif;
+}
+.img-box-about {
+  height: 70vh;
+  background-image: url(pets/5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.our-mission {
+  padding-top: 10%;
+}
+
+.our-mission h3 {
+  font-family: "Muli", Sans-Serif;
+  font-size: 2em;
+}
+
+.our-mission p {
+  font-family: "Merriweather", Serif;
+}
+
+.our-vision {
+  padding-top: 10%;
+}
+
+.our-vision h3 {
+  font-family: "Muli", Sans-Serif;
+  font-size: 2em;
+}
+
+.our-vision p {
+  font-family: "Merriweather", Serif;
+}
+
+.our-team-about {
+  padding-top: 10%;
+}
+
+.our-team-about h5 {
+  font-family: "Muli", Sans-Serif;
+  font-size: 2em;
+}
+
+.our-team-about p {
+  font-family: "Merriweather", Serif;
+  font-size: 80%;
+}
+
+/* BLOG */
+.blog-img img {
+  width: 100%;
+  height: 50%;
+}
+
+.pagination {
+  position: relative;
+  left: 40%;
+}
+
+/* Footer */
+
+.footer-container {
+  min-height: 50vh;
+  padding: 30px;
+}
+
+.contact {
+  top: 50px;
+}
+
+.contact h3 {
+  font-size: 25px;
+  font-family: "Muli", Sans-Serif;
+}
+
+.contact p {
+  text-align: left;
+  font-size: 15px;
+  font-family: "Merriweather", Serif;
+}
+
+.time li {
+  list-style-type: none;
+  margin-left: 2em;
+  font-family: "Merriweather", Serif;
+}
+
+.news p {
+  font-family: "Merriweather", Serif;
+}
+
+.social-media-container {
+  float: right;
+}
+
+.social-media-container .social-head {
+  margin-bottom: 1em;
+}
+
+.social-media-container a {
+  color: black;
+}
+
+.facebook-icon {
+  left: 5em;
+}
+
+.youtube-icon {
+  color: black;
+}
+
+/* Single blog post */
+
+/* mobile */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .img-banner {
+    height: 50vh;
+    width: 100%;
+    background-image: url(pets/mobile_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .banner-container {
+    visibility: hidden;
+  }
+
+  .banner-container h3 {
+    font-size: 1.3em;
+  }
+  .banner-container p {
+    font-size: 13px;
+  }
+
+  /* SERVICE */
+  .ourservice {
+    height: 100%;
+    margin-bottom: 3em;
+  }
+
+  /* .ourservice img {
+    margin-left: 2em;
+  } */
+
+  /* TEAM */
+  .team-container {
+    height: 100%;
+    margin-bottom: 115em;
+  }
+
+  .teamtxt {
+    position: absolute;
+    width: 90%;
+  }
+
+  .team-img img {
+    margin-left: 2.5em;
+  }
+
+  .teamtxt h4 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .teamtxt h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .teamimg-box-1 {
+    position: absolute;
+    top: 20em;
+    left: 0;
+    width: 100%;
+  }
+
+  .teamimg-box-2 {
+    position: absolute;
+    top: 50em;
+    left: 0;
+    width: 100%;
+  }
+
+  .teamimg-box-3 {
+    position: absolute;
+    top: 83em;
+    left: 0;
+    width: 100%;
+  }
+
+  /* WHYUS */
+  .whyus {
+    height: 200vh;
+  }
+
+  .whyus img {
+    margin-left: 2.5em;
+  }
+
+  /* APPOINTMENT-TESTIMONY */
+  .appointment {
+    height: 230vh;
+  }
+
+  .form-container {
+    position: absolute;
+    left: -10%;
+    width: 80%;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-left: 0em;
+  }
+
+  .form-container .button {
+    margin-left: 20%;
+  }
+
+  .testimony-container {
+    position: absolute;
+    top: 50em;
+    left: 0em;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    height: 100%;
+    width: 100%;
+  }
+  .contact {
+    margin-bottom: 2em;
+  }
+  .contact h3 {
+    text-align: center;
+  }
+
+  .contact p {
+    text-align: center;
+  }
+
+  .time {
+    margin-bottom: 3em;
+  }
+
+  .news {
+    margin-bottom: 3em;
+  }
+
+  .news h3 {
+    text-align: center;
+  }
+
+  .news p {
+    text-align: center;
+  }
+
+  /* single blog */
+
+  .singleblog-container {
+    width: 100%;
+  }
+
+  .comment-container {
+    position: relative;
+    left: -4em;
+  }
+
+  .comment-container textarea {
+    width: 100%;
+  }
+}

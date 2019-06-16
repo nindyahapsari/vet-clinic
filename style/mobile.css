@@ -1,0 +1,10 @@
+@media (min-width: 300px) {
+  .banner-container {
+    width: 100%;
+    height: 50%;
+  }
+
+  .banner-container h3 {
+    font-size: 100em;
+  }
+}
